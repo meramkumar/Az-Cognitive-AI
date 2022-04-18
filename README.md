@@ -8,6 +8,7 @@ Step 1:
 Create a storage account in Azure portal/follow documentation available here https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-powershell
 
 PS Command
+
 Connect-AzAccount
 New-AzStorageAccount -ResourceGroupName $resourceGroup `
   -Name <account-name> `
