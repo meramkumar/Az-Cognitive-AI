@@ -16,7 +16,7 @@ New-AzStorageAccount -ResourceGroupName $resourceGroup `
   -SkuName Standard_RAGRS `
   -Kind StorageV2
 
-for the example we can use LRS, StorageV2.
+Note:- For the example we can use LRS, StorageV2.
 
 Step 2:
 Upload atleast 100 different file types (docx, pdf, doc) in the root of the storage account.
